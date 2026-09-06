@@ -1,0 +1,11 @@
+# 依赖版本已按 Python 3.13 适配（原固定版本 numpy==1.26.3 / pandas==2.2.0 无 py3.13 wheel）
+fastapi>=0.115,<1.0
+uvicorn>=0.30
+pandas>=2.2
+numpy>=2.0
+scikit-learn>=1.5
+scipy>=1.13
+seaborn>=0.13
+matplotlib>=3.9
+pydantic>=2.7
+joblib>=1.4

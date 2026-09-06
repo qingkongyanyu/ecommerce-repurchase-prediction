@@ -1,0 +1,74 @@
+{
+  "total_users": 8500,
+  "repurchase_users": 4371,
+  "churn_users": 4129,
+  "repurchase_rate": 0.5142,
+  "avg_consume": 511.77,
+  "median_consume": 151.63,
+  "avg_consume_repurchase": 625.26,
+  "avg_consume_non_repurchase": 395.26,
+  "avg_consume_gap_pct": 58.2,
+  "coupon_usage_rate": 0.9775,
+  "silence_users": 5876,
+  "silence_rate": 0.9117,
+  "median_silence_days": 182,
+  "pca_components": 31,
+  "pca_cumulative_variance": 0.9653,
+  "factor_components": 10,
+  "svm_metrics": {
+    "accuracy": 0.6151,
+    "precision": 0.6299,
+    "recall": 0.6098,
+    "f1": 0.6197,
+    "auc": 0.6675
+  },
+  "rf_metrics": {
+    "accuracy": 0.626,
+    "precision": 0.6366,
+    "recall": 0.6357,
+    "f1": 0.6362,
+    "auc": 0.6713
+  },
+  "top10_features": [
+    {
+      "feature": "cart_add_cnt",
+      "importance": 0.1076
+    },
+    {
+      "feature": "silence_days",
+      "importance": 0.1015
+    },
+    {
+      "feature": "total_order_num",
+      "importance": 0.0801
+    },
+    {
+      "feature": "month_order_avg",
+      "importance": 0.0526
+    },
+    {
+      "feature": "total_consume",
+      "importance": 0.0488
+    },
+    {
+      "feature": "register_days",
+      "importance": 0.0361
+    },
+    {
+      "feature": "discount_save_money",
+      "importance": 0.0342
+    },
+    {
+      "feature": "promo_order_ratio",
+      "importance": 0.033
+    },
+    {
+      "feature": "low_price_goods_ratio",
+      "importance": 0.0326
+    },
+    {
+      "feature": "live_watch_duration",
+      "importance": 0.0325
+    }
+  ]
+}

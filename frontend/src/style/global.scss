@@ -1,0 +1,166 @@
+/* 全局样式重置 & 深蓝科技主题 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+  background: #070e1e;
+  color: #eaf6ff;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #00d4ff;
+  text-decoration: none;
+}
+
+/* ================= 滚动条美化 ================= */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 212, 255, 0.05);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(0, 212, 255, 0.5), rgba(124, 92, 255, 0.5));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 212, 255, 0.8);
+}
+
+/* ================= 流光 / 动效关键帧 ================= */
+/* 卡片顶部流光扫光 */
+@keyframes beam-sweep {
+  0% {
+    left: -90%;
+  }
+  55% {
+    left: 115%;
+  }
+  100% {
+    left: 115%;
+  }
+}
+
+/* 标题栏渐变流动 */
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 卡片入场（一次性，非浮动） */
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 呼吸发光 */
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 14px rgba(0, 212, 255, 0.12);
+  }
+  50% {
+    box-shadow: 0 0 28px rgba(0, 212, 255, 0.28);
+  }
+}
+
+/* 背景极光缓慢流动 */
+@keyframes aurora-move {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translate(4%, -3%) scale(1.12);
+    opacity: 0.75;
+  }
+}
+
+/* 光点旋转 */
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ================= Element Plus 深色适配 ================= */
+.el-tag {
+  border-radius: 4px;
+}
+
+.el-radio-button__inner {
+  background: rgba(10, 22, 40, 0.6);
+  color: rgba(190, 224, 255, 0.75);
+  border-color: rgba(0, 212, 255, 0.22);
+  box-shadow: none !important;
+  transition: all 0.25s ease;
+}
+
+.el-radio-button__inner:hover {
+  color: #00d4ff;
+  background: rgba(0, 212, 255, 0.08);
+}
+
+.el-radio-button__original-radio:checked + .el-radio-button__inner {
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.25), rgba(10, 108, 255, 0.25));
+  border-color: rgba(0, 212, 255, 0.55);
+  color: #eaf6ff;
+  box-shadow: 0 0 12px rgba(0, 212, 255, 0.25) inset;
+}
+
+.el-textarea__inner,
+.el-input__wrapper {
+  background: rgba(8, 16, 32, 0.7) !important;
+  border-color: rgba(0, 212, 255, 0.2) !important;
+  color: #eaf6ff !important;
+  box-shadow: 0 0 0 1px rgba(0, 212, 255, 0.2) inset !important;
+}
+
+.el-textarea__inner::placeholder {
+  color: rgba(148, 190, 230, 0.45);
+}
+
+.el-button--primary {
+  background: linear-gradient(135deg, #00d4ff, #0a6cff) !important;
+  border: none !important;
+  box-shadow: 0 4px 16px rgba(0, 212, 255, 0.35);
+}
+
+.el-button--primary:hover {
+  filter: brightness(1.12);
+}
+
+/* 空图表占位提示 */
+.chart-empty-tip {
+  color: rgba(148, 190, 230, 0.45);
+  font-size: 13px;
+}

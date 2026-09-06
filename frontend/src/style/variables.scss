@@ -1,0 +1,48 @@
+// ============================================
+// 主题变量（深蓝科技风）
+// ============================================
+
+// 主色（青色科技蓝）
+$primary: #00d4ff;
+$primary-deep: #0a6cff;
+$primary-soft: rgba(0, 212, 255, 0.35);
+
+// 辅助色
+$accent: #7c5cff;      // 紫
+$accent-2: #ff4d8f;    // 玫红（点缀）
+$success: #00e6a8;
+$warning: #ffb020;
+$danger: #ff4d6d;
+
+// 背景
+$bg-base: #070e1e;
+$bg-base-light: #0a1628;
+$bg-card: rgba(14, 32, 60, 0.72);
+$bg-card-solid: rgba(8, 16, 32, 0.9);
+$bg-card-hover: rgba(18, 42, 76, 0.85);
+
+// 边框
+$border-cyan: rgba(0, 212, 255, 0.32);
+$border-dim: rgba(0, 212, 255, 0.14);
+
+// 文字
+$text-main: #eaf6ff;
+$text-sub: rgba(185, 224, 255, 0.72);
+$text-dim: rgba(148, 190, 230, 0.48);
+
+// 阴影
+$shadow-card: 0 8px 28px rgba(0, 0, 0, 0.38);
+$shadow-glow: 0 0 26px rgba(0, 212, 255, 0.14);
+
+// 圆角
+$border-radius: 14px;
+$border-radius-sm: 8px;
+
+// 字号
+$font-size-sm: 12px;
+$font-size-md: 14px;
+$font-size-lg: 18px;
+$font-size-xl: 26px;
+
+// 过渡
+$transition-default: all 0.3s ease;

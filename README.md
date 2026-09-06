@@ -114,3 +114,35 @@ docs/                             # 需求规格说明书、数据集说明书�
 ---
 
 © 2026 [Qingk](https://github.com/qingkongyanyu) · [MIT License](LICENSE)
+
+## 🔗 相关项目
+
+作者 [Qingk](https://github.com/qingkongyanyu) 的其它开源项目：
+
+- [enterprise_rag](https://github.com/qingkongyanyu/enterprise_rag) — 企业私有知识库 RAG 智能问答系统（混合检索 + 大模型）
+- [drink_rag_robot](https://github.com/qingkongyanyu/drink_rag_robot) — 饮料行业 RAG 知识问答机器人
+- [love-emotion-agent](https://github.com/qingkongyanyu/love-emotion-agent) — AI 情感对话智能体（大模型对话 + 语音合成）
+- [xiaowen_weather_agent](https://github.com/qingkongyanyu/xiaowen_weather_agent) — 智能天气助手 Agent
+- [xiaoyu_ai_full](https://github.com/qingkongyanyu/xiaoyu_ai_full) — AI 情感陪伴智能体（对话 / 语音 / 长期记忆 RAG）
+- [ecom_churn_web](https://github.com/qingkongyanyu/ecom_churn_web) — 电商用户流失预测 Web 应用
+- [business-district-selection](https://github.com/qingkongyanyu/business-district-selection) — 城市商圈选址与客流异常检测平台
+- [wine-quality-prediction](https://github.com/qingkongyanyu/wine-quality-prediction) — 葡萄酒品质预测与理化指标分析
+- [enterprise-credit-risk](https://github.com/qingkongyanyu/enterprise-credit-risk) — 企业信用风险评级系统
+
+---
+
+© 2026 [Qingk](https://github.com/qingkongyanyu) · [MIT License](LICENSE)
+
+## 🔗 相关项目
+
+作者 [Qingk](https://github.com/qingkongyanyu) 的其它开源项目：
+
+- [enterprise_rag](https://github.com/qingkongyanyu/enterprise_rag) — 企业私有知识库 RAG 智能问答系统（混合检索 + 大模型）
+- [drink_rag_robot](https://github.com/qingkongyanyu/drink_rag_robot) — 饮料行业 RAG 知识问答机器人
+- [love-emotion-agent](https://github.com/qingkongyanyu/love-emotion-agent) — AI 情感对话智能体（大模型对话 + 语音合成）
+- [xiaowen_weather_agent](https://github.com/qingkongyanyu/xiaowen_weather_agent) — 智能天气助手 Agent
+- [xiaoyu_ai_full](https://github.com/qingkongyanyu/xiaoyu_ai_full) — AI 情感陪伴智能体（对话 / 语音 / 长期记忆 RAG）
+- [ecom_churn_web](https://github.com/qingkongyanyu/ecom_churn_web) — 电商用户流失预测 Web 应用
+- [business-district-selection](https://github.com/qingkongyanyu/business-district-selection) — 城市商圈选址与客流异常检测平台
+- [wine-quality-prediction](https://github.com/qingkongyanyu/wine-quality-prediction) — 葡萄酒品质预测与理化指标分析
+- [enterprise-credit-risk](https://github.com/qingkongyanyu/enterprise-credit-risk) — 企业信用风险评级系统
